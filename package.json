@@ -1,0 +1,22 @@
+{
+  "name": "jansahayak-ai",
+  "version": "1.0.0",
+  "description": "JanSahayak AI – Your AI Government Scheme Assistant",
+  "main": "server/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "run-node.bat server/index.mjs",
+    "dev": "run-node.bat server/index.mjs",
+    "test": "run-node.bat test/test-suite.mjs",
+    "test:tinyfish": "run-node.bat test/test-tinyfish-live.mjs"
+  },
+  "keywords": [
+    "government-schemes",
+    "india",
+    "ai-assistant",
+    "tinyfish-api",
+    "civic-tech"
+  ],
+  "author": "JanSahayak AI Team",
+  "license": "MIT"
+}
